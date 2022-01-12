@@ -8,4 +8,9 @@ public class Chicken extends Animal implements Edible{
     public String toString() {
         return "Con gà: "+ howToEat();
     }
+
+    @Override
+    public String makeSound() {
+        return "Gà kêu: hihihi.";
+    }
 }
